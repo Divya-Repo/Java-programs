@@ -43,7 +43,7 @@ class DifferentMethods{
 
         // updating static variable
 
-        initval1.updateStaticVariable("Updated Static Variable");
+        updateStaticVariable("Updated Static Variable");
         initval2.updateInstanceVariable("Updated Instance Variable");
 
         // After Update display

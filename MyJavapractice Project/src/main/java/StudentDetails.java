@@ -1,7 +1,7 @@
 class Students{
 
-    private String name;
-    private String rollNumber;
+    private final String name;
+    private final String rollNumber;
     private float marks;
 
     public String getName(){

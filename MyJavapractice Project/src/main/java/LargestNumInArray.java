@@ -1,6 +1,6 @@
 public class LargestNumInArray {
     public static void main(String[] args) {
-        int arr[] = {25,34,67,90,21};
+        int[] arr = {25,34,67,90,21};
 
        int max = arr[0];
 

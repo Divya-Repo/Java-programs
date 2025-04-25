@@ -47,7 +47,7 @@ public class SimpleStringExercise {
         System.out.println("lowercase: " +k.toLowerCase());
 
 
-        String arr[] = abc.split(" ");
+        String[] arr = abc.split(" ");
         for(int i = 0; i< arr.length;i++) {
 
             System.out.println(arr[i]);

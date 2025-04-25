@@ -1,8 +1,8 @@
 import groovyjarjarpicocli.CommandLine;
 
 class Cars{
-    private String brand;
-    private String model;
+    private final String brand;
+    private final String model;
     private int speed;
     // getters
 
@@ -16,7 +16,7 @@ class Cars{
 
         public int getSpeed(){
             return speed;
-            };
+            }
 
     public Cars (String brand,String model ){
         this.brand = brand;

@@ -1,6 +1,6 @@
  class BankAccounts {
-     private String accountNumber;
-     private String accountHolderName;
+     private final String accountNumber;
+     private final String accountHolderName;
      private double balance;
 
      public BankAccounts(String accountNumber, String accountHolderName, double balance) {

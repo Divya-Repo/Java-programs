@@ -3,7 +3,7 @@ public class StringBufferAndBuilder {
 
         String a = "Hello";   // String literal  immutable > value is always single and cant change.
 
-        String s = new String("Hi");
+        String s = "Hi";
 
         // String Buffer : Mutable.
 
