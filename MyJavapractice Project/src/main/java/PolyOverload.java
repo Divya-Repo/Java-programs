@@ -15,7 +15,7 @@ class Calculators{
 public class PolyOverload {
     public static void main(String[] args) {
 
-        Calculators cal = new Calculators();
+        Calcu cal = new Calcu();
 
 
         System.out.println("Sum of two integers: " + cal.add(2,3));
